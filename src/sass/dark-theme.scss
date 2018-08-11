@@ -1,0 +1,6 @@
+$cleanroad-dark-primary: mat-palette($mat-grey, 900);
+$cleanroad-dark-accent:  mat-palette($mat-red, A700);
+
+$cleanroad-dark-warn: mat-palette($mat-orange, 900);
+
+$cleanroad-dark-theme: mat-dark-theme($cleanroad-dark-primary, $cleanroad-dark-accent, $cleanroad-dark-warn);

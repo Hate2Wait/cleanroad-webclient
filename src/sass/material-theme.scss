@@ -1,0 +1,13 @@
+@import '~@angular/material/theming';
+@include mat-core();
+@import 'primary-theme.scss';
+@import 'dark-theme.scss';
+
+.primary-theme {
+    @include angular-material-theme($cleanroad-light-theme);
+}
+
+
+.dark-theme {
+    @include angular-material-theme($cleanroad-dark-theme);
+}

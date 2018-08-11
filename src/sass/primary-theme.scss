@@ -1,0 +1,6 @@
+$cleanroad-light-primary: mat-palette($mat-blue-grey);
+$cleanroad-light-accent:  mat-palette($mat-deep-orange, A700);
+
+$cleanroad-light-warn: mat-palette($mat-red);
+
+$cleanroad-light-theme: mat-light-theme($cleanroad-light-primary, $cleanroad-light-accent, $cleanroad-light-warn);

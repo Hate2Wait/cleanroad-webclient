@@ -1,0 +1,35 @@
+@import './partials/flex.scss';
+@import './partials/breakpoints.scss';
+
+html {
+    font: {
+        font-family: 'Roboto', 'Helvetica Neue', sans-serif
+    }
+}
+
+body {
+    margin: 0px;
+    font-family: 'Roboto', 'Helvetica Neue', sans-serif
+}
+
+.max-width {
+    width: 100%;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+cleanroad-sidenav-content mat-expansion-panel .mat-expansion-panel-body {
+    padding: 0px;
+}
+
+.page-content {
+    padding: 20px;
+}
+
+@media #{ $xs } {
+    .page-content {
+        padding: 0px;
+    }
+}
