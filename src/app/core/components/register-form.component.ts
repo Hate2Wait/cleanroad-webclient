@@ -99,7 +99,7 @@ export class RegisterFormComponent {
             name: [null],
             firstName: [null],
             userName: [null, Validators.required],
-            emails: this.formBuilder.array([this.createEmptyEmailGroup(true)], PrimaryEmailValidation.primaryEmail('isPrimary')),
+            email: [null, [Validators.required, Validators.email]],
             password: [null, [Validators.required, Validators.minLength(8)]],
             passwordRepeat: [null, Validators.required]
         }, { validator: PasswordValidator.mismatchedPassword('password', 'passwordRepeat') });

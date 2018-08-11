@@ -11,19 +11,5 @@ import { Component, Output, EventEmitter } from '@angular/core';
 export class SidenavContentComponent {
     @Output() linkClicked = new EventEmitter();
 
-    public adminLinks: any[] = [
-        {
-            path: 'movies',
-            displayName: 'Movies',
-            icon: 'movie'
-        }
-    ];
-
-    public discoverLinks: any[] = [
-        {
-            path: 'browse',
-            displayName: 'Browse',
-            icon: 'dashboard'
-        }
-    ];
+    public adminLinks: any[] = [];
 }
